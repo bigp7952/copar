@@ -47,4 +47,4 @@ Thumbs.db
 .env.*.local
 
 # Supabase keys (ne pas committer les clés)
-SUPABASE_KEYS.md
+# SUPABASE_KEYS.md - Retiré du gitignore sur demande explicite
