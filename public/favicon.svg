@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Fond avec dégradé -->
+  <rect width="100" height="100" rx="22" fill="url(#grad)"/>
+  
+  <!-- Icône caméra stylisée -->
+  <g transform="translate(25, 20)">
+    <!-- Corps de la caméra -->
+    <rect x="8" y="12" width="34" height="26" rx="3" fill="white" opacity="0.95"/>
+    
+    <!-- Objectif principal -->
+    <circle cx="25" cy="25" r="10" fill="#1e40af" opacity="0.9"/>
+    <circle cx="25" cy="25" r="7" fill="#2563eb"/>
+    <circle cx="25" cy="25" r="3.5" fill="#1e40af"/>
+    
+    <!-- Flash -->
+    <rect x="36" y="15" width="6" height="5" rx="1" fill="#fbbf24"/>
+    
+    <!-- Poignée -->
+    <rect x="4" y="16" width="6" height="18" rx="1.5" fill="white" opacity="0.9"/>
+  </g>
+  
+  <!-- Texte COPAR -->
+  <text x="50" y="75" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle" opacity="0.95">COPAR</text>
+</svg>
