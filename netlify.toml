@@ -1,0 +1,13 @@
+[build]
+  publish = "dist/copar-app/browser"
+  command = "npm ci && npm run build"
+
+[build.environment]
+  NODE_VERSION = "20.18.0"
+  NPM_FLAGS = "--legacy-peer-deps"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
